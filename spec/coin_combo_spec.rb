@@ -24,4 +24,7 @@ describe('String#coin_combo') do
   it('return a value for the amount of change remaining given pennies') do
     expect(("4").coin_combo()).to(eq("0"))
   end
+  it('return a value for the amount of change remaining given mixed coin values') do
+    expect(("99").coin_combo()).to(eq("0"))
+  end
 end
