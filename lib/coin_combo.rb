@@ -1,6 +1,6 @@
 class String
 
-  define_method(:coin_combo) do
+  define_method(:coin_combo) do |output|
     total_quarters = 0
     total_dimes = 0
     total_nickles = 0
@@ -21,6 +21,16 @@ class String
       total_pennies = total_pennies.+(1)
     end
     end
-    counter = counter.to_s()
+    if output == "quarters"
+      total_quarters
+    elsif output == "dimes"
+      total_dimes
+    elsif output == "nickles"
+      total_nickles
+    elsif output == "pennies"
+      total_pennies
+    else
+      counter = counter.to_s()
+    end
   end
 end
