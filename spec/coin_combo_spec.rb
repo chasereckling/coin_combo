@@ -15,4 +15,7 @@ describe('String#coin_combo') do
   it('return a value for the amount of change remaining given quarters') do
     expect(("50").coin_combo()).to(eq("0"))
   end
+  it('return a value for the amount of change remaining given dimes') do
+    expect(("20").coin_combo()).to(eq("0"))
+  end
 end
