@@ -15,11 +15,11 @@ Coin Counter uses ruby version 2.2.0.
 
    $ bundle install
 
-2. next run ruby app.rb in the terminal:
+2. Run ruby app.rb in the terminal:
 
    $ ruby app.rb
 
-3. in your browser navigate to the url: localhost:4567.
+3. In your browser navigate to the url: localhost:4567.
 
 Copyright and Licensing:
 
