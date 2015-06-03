@@ -6,12 +6,6 @@ What is it?
 
 Coin Counter lets a user enter an amount of cents and shows the smallest number of quarters, dimes, nickels, and pennies needed to make that change.
 
-example:
-
->99.coin_combo()
->3 quarters, 2 dimes, 0 nickels, 4 pennies
-
-
 Setup:
 ------
 
