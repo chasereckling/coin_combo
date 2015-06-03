@@ -9,15 +9,17 @@ Coin Counter lets a user enter an amount of cents and shows the smallest number 
 Setup:
 ------
 
-Coin Counter uses ruby version 2.2.0. After you download Coin Counter navigate to the 'coin_counter' file folder in your terminal then run the following command to install the Gemfile:
+Coin Counter uses ruby version 2.2.0. 
 
-$ bundle install
+1. After you download Coin Counter navigate to the 'coin_counter' file folder in your terminal then run the following    command to install the Gemfile:
 
-next run ruby app.rb in the terminal
+   $ bundle install
 
-$ ruby app.rb
+2. next run ruby app.rb in the terminal:
 
-and in your browser navigate to the url: localhost:4567.
+   $ ruby app.rb
+
+3. in your browser navigate to the url: localhost:4567.
 
 Copyright and Licensing:
 
